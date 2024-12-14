@@ -1,11 +1,16 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Lookbook from "../common/SwipComponent";
 import { images } from "../data/imgData";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 const Looks = () => {
-  const [, set] = useState(null);
+  const [lookId, setlookId] = useState(null);
   const navigate = useNavigate();
+  const { id } = useParams();
+
+  useEffect(() => {
+    setlookId(id);
+  }, [id]);
 
   return (
     <div className="w-full h-[100vh]">
@@ -30,7 +35,7 @@ const Looks = () => {
           />
         </svg>
       </div>
-      <Lookbook data={images} />
+      <Lookbook lookId={lookId} data={images} />
     </div>
   );
 };

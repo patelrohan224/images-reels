@@ -17,7 +17,7 @@ const Look = ({ data, isActive, next }) => {
             return prev + 1;
           } else {
             clearInterval(timer);
-            next();
+            // next();
             return 100;
           }
         });
