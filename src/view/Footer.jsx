@@ -56,7 +56,7 @@ const Footer = () => {
             path="/looks/all"
           />
 
-          <FooterItem
+          {/* <FooterItem
             icon={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +75,7 @@ const Footer = () => {
             }
             text="Account"
             path="/account"
-          />
+          /> */}
         </nav>
       </footer>
     )
