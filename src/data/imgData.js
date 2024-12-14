@@ -1,7 +1,7 @@
 export const images = [
   {
     type: "video",
-    src: "https://videocdn.cdnpk.net/videos/59183ff8-f1e2-50cc-a966-d26bb36880db/vertical/previews/clear/large.mp4?token=exp=1734167856~hmac=0f589c66170a23e5cd8240647d00136bf91f061166bc28b453471469e6177dd1",
+    src: "https://videos.pexels.com/video-files/8239363/8239363-hd_1080_1920_25fps.mp4",
     productItems: [
       {
         src: "https://images.pexels.com/photos/4456778/pexels-photo-4456778.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
@@ -31,7 +31,7 @@ export const images = [
   },
   {
     type: "video",
-    src: "https://videocdn.cdnpk.net/videos/391c14aa-2e87-593a-9e6a-d177846086e3/vertical/previews/clear/large.mp4?token=exp=1734167968~hmac=992c9af5bd987d022fe66be22e3c7f6a760f0311f2740664ec7767b757fca41d",
+    src: "https://videos.pexels.com/video-files/10548177/10548177-uhd_1440_2732_25fps.mp4",
     productItems: [
       {
         src: "https://images.pexels.com/photos/4453794/pexels-photo-4453794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
@@ -61,7 +61,63 @@ export const images = [
   },
   {
     type: "video",
-    src: "https://videocdn.cdnpk.net/videos/3f63d6db-402d-5f28-9a4b-96fa2a8c2e0a/vertical/previews/clear/large.mp4?token=exp=1734168016~hmac=330d39f2f401b65cdccb9ad685f53262cfeb342e133268468ccb818c26c7a1d1",
+    src: "https://videos.pexels.com/video-files/7037493/7037493-sd_506_960_25fps.mp4",
+    productItems: [
+      {
+        src: "https://images.pexels.com/photos/4456778/pexels-photo-4456778.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        name: "name",
+        price: "345",
+        id: 1,
+      },
+      {
+        src: "https://images.pexels.com/photos/4456778/pexels-photo-4456778.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        name: "name",
+        price: "345",
+        id: 2,
+      },
+      {
+        src: "https://images.pexels.com/photos/4456778/pexels-photo-4456778.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        name: "name",
+        price: "345",
+        id: 3,
+      },
+      {
+        src: "https://images.pexels.com/photos/4456778/pexels-photo-4456778.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        name: "name",
+        price: "345",
+        id: 4,
+      },
+    ],
+  },
+  {
+    type: "video",
+    src: "https://videos.pexels.com/video-files/9822026/9822026-sd_506_960_25fps.mp4",
+    productItems: [
+      {
+        src: "https://images.pexels.com/photos/4453794/pexels-photo-4453794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        name: "name",
+        price: "3454",
+        id: 1,
+      },
+      {
+        src: "https://images.pexels.com/photos/4453794/pexels-photo-4453794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        name: "name",
+        price: "3545",
+        id: 2,
+      },
+      {
+        src: "https://images.pexels.com/photos/4453794/pexels-photo-4453794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        name: "name",
+        price: "3435",
+        id: 3,
+      },
+      {
+        src: "https://images.pexels.com/photos/4453794/pexels-photo-4453794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        name: "name",
+        price: "3245",
+        id: 4,
+      },
+    ],
   },
   {
     type: "img",
@@ -106,25 +162,25 @@ export const images = [
     ],
     productItems: [
       {
-        src: "https://images.pexels.com/photos/4453794/pexels-photo-4453794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        src: "https://images.pexels.com/photos/9191093/pexels-photo-9191093.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         name: "name",
         price: "345",
         id: 1,
       },
       {
-        src: "https://images.pexels.com/photos/4453794/pexels-photo-4453794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        src: "https://images.pexels.com/photos/9191093/pexels-photo-9191093.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         name: "name",
         price: "345",
         id: 2,
       },
       {
-        src: "https://images.pexels.com/photos/4453794/pexels-photo-4453794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        src: "https://images.pexels.com/photos/9191093/pexels-photo-9191093.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         name: "name",
         price: "345",
         id: 3,
       },
       {
-        src: "https://images.pexels.com/photos/4453794/pexels-photo-4453794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        src: "https://images.pexels.com/photos/9191093/pexels-photo-9191093.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         name: "name",
         price: "345",
         id: 4,

@@ -32,7 +32,7 @@ const Footer = () => {
               </svg>
             }
             text="Home"
-            path="/"
+            path=""
           />
 
           <FooterItem
@@ -88,7 +88,9 @@ const FooterItem = ({ icon, text, path }) => {
   return (
     <button
       className={`flex flex-col items-center text-gray-500 transition-colors hover:text-blue-500 focus:text-blue-500 ${
-        location?.pathname?.includes(path) ? "text-blue-500" : ""
+        location?.pathname?.includes(path) || location?.pathname === path
+          ? "text-blue-500"
+          : ""
       }`}
       onClick={() => navigate(path)}
     >
