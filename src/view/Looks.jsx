@@ -4,13 +4,8 @@ import { images } from "../data/imgData";
 import { useNavigate, useParams } from "react-router-dom";
 
 const Looks = () => {
-  const [lookId, setlookId] = useState(null);
   const navigate = useNavigate();
   const { id } = useParams();
-
-  useEffect(() => {
-    setlookId(id);
-  }, [id]);
 
   return (
     <div className="w-full h-[100vh]">
@@ -35,7 +30,7 @@ const Looks = () => {
           />
         </svg>
       </div>
-      <Lookbook lookId={lookId} data={images} />
+      <Lookbook lookId={id} data={images} />
     </div>
   );
 };

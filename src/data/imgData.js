@@ -251,10 +251,7 @@ export const images = [
     type: "img",
     src: "https://media.istockphoto.com/id/1631150071/photo/beautiful-sensual-woman.jpg?s=612x612&w=0&k=20&c=M-PepFDG2CAqQnVvSECI5dVL890JawM3siToH_gPR-8=",
   },
-  {
-    type: "img",
-    src: "https://media.istockphoto.com/id/912151698/photo/fashion-photo-of-young-magnificent-woman-girl-posing-studio-photo.jpg?s=612x612&w=0&k=20&c=HV5nH9cwpFZH8TOZnGC85ygCbpvSG6ptgcxqEJIIZ8w=",
-  },
+
   {
     type: "img",
     src: "https://images.pexels.com/photos/9191093/pexels-photo-9191093.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
@@ -338,10 +335,6 @@ export const images = [
   {
     type: "img",
     src: "https://media.istockphoto.com/id/1631150071/photo/beautiful-sensual-woman.jpg?s=612x612&w=0&k=20&c=M-PepFDG2CAqQnVvSECI5dVL890JawM3siToH_gPR-8=",
-  },
-  {
-    type: "img",
-    src: "https://media.istockphoto.com/id/912151698/photo/fashion-photo-of-young-magnificent-woman-girl-posing-studio-photo.jpg?s=612x612&w=0&k=20&c=HV5nH9cwpFZH8TOZnGC85ygCbpvSG6ptgcxqEJIIZ8w=",
   },
   {
     type: "img",
@@ -513,10 +506,6 @@ export const images = [
   },
   {
     type: "img",
-    src: "https://images.pexels.com/photos/29751863/pexels-photo-29751863/free-photo-of-confident-tattooed-woman-with-piercings.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-  },
-  {
-    type: "img",
     src: "https://images.pexels.com/photos/13172406/pexels-photo-13172406.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
   },
   {
@@ -647,10 +636,7 @@ export const images = [
     type: "img",
     src: "https://media.istockphoto.com/id/1631150071/photo/beautiful-sensual-woman.jpg?s=612x612&w=0&k=20&c=M-PepFDG2CAqQnVvSECI5dVL890JawM3siToH_gPR-8=",
   },
-  {
-    type: "img",
-    src: "https://media.istockphoto.com/id/912151698/photo/fashion-photo-of-young-magnificent-woman-girl-posing-studio-photo.jpg?s=612x612&w=0&k=20&c=HV5nH9cwpFZH8TOZnGC85ygCbpvSG6ptgcxqEJIIZ8w=",
-  },
+
   {
     type: "img",
     src: "https://images.pexels.com/photos/8732916/pexels-photo-8732916.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",

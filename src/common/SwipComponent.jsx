@@ -3,7 +3,8 @@ import { useSwipeable } from "react-swipeable";
 import Look from "./Look";
 
 const Lookbook = ({ data, lookId }) => {
-  const [currentIndex, setCurrentIndex] = useState(lookId || 0);
+  const id = lookId !== "all" ? Number(lookId) : 0;
+  const [currentIndex, setCurrentIndex] = useState(id);
 
   const handlers = useSwipeable({
     onSwipedUp: () => {
