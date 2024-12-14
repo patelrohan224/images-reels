@@ -32,7 +32,7 @@ const Footer = () => {
               </svg>
             }
             text="Home"
-            path="/home"
+            path="/"
           />
 
           <FooterItem
