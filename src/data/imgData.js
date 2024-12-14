@@ -60,66 +60,6 @@ export const images = [
     ],
   },
   {
-    type: "video",
-    src: "https://videos.pexels.com/video-files/7037493/7037493-sd_506_960_25fps.mp4",
-    productItems: [
-      {
-        src: "https://images.pexels.com/photos/4456778/pexels-photo-4456778.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        name: "name",
-        price: "345",
-        id: 1,
-      },
-      {
-        src: "https://images.pexels.com/photos/4456778/pexels-photo-4456778.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        name: "name",
-        price: "345",
-        id: 2,
-      },
-      {
-        src: "https://images.pexels.com/photos/4456778/pexels-photo-4456778.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        name: "name",
-        price: "345",
-        id: 3,
-      },
-      {
-        src: "https://images.pexels.com/photos/4456778/pexels-photo-4456778.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        name: "name",
-        price: "345",
-        id: 4,
-      },
-    ],
-  },
-  {
-    type: "video",
-    src: "https://videos.pexels.com/video-files/9822026/9822026-sd_506_960_25fps.mp4",
-    productItems: [
-      {
-        src: "https://images.pexels.com/photos/4453794/pexels-photo-4453794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        name: "name",
-        price: "3454",
-        id: 1,
-      },
-      {
-        src: "https://images.pexels.com/photos/4453794/pexels-photo-4453794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        name: "name",
-        price: "3545",
-        id: 2,
-      },
-      {
-        src: "https://images.pexels.com/photos/4453794/pexels-photo-4453794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        name: "name",
-        price: "3435",
-        id: 3,
-      },
-      {
-        src: "https://images.pexels.com/photos/4453794/pexels-photo-4453794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        name: "name",
-        price: "3245",
-        id: 4,
-      },
-    ],
-  },
-  {
     type: "img",
     src: "https://images.pexels.com/photos/4456778/pexels-photo-4456778.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     annotations: [
@@ -199,6 +139,67 @@ export const images = [
       },
     ],
   },
+  {
+    type: "video",
+    src: "https://videos.pexels.com/video-files/7037493/7037493-sd_506_960_25fps.mp4",
+    productItems: [
+      {
+        src: "https://images.pexels.com/photos/4456778/pexels-photo-4456778.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        name: "name",
+        price: "345",
+        id: 1,
+      },
+      {
+        src: "https://images.pexels.com/photos/4456778/pexels-photo-4456778.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        name: "name",
+        price: "345",
+        id: 2,
+      },
+      {
+        src: "https://images.pexels.com/photos/4456778/pexels-photo-4456778.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        name: "name",
+        price: "345",
+        id: 3,
+      },
+      {
+        src: "https://images.pexels.com/photos/4456778/pexels-photo-4456778.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        name: "name",
+        price: "345",
+        id: 4,
+      },
+    ],
+  },
+  {
+    type: "video",
+    src: "https://videos.pexels.com/video-files/9822026/9822026-sd_506_960_25fps.mp4",
+    productItems: [
+      {
+        src: "https://images.pexels.com/photos/4453794/pexels-photo-4453794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        name: "name",
+        price: "3454",
+        id: 1,
+      },
+      {
+        src: "https://images.pexels.com/photos/4453794/pexels-photo-4453794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        name: "name",
+        price: "3545",
+        id: 2,
+      },
+      {
+        src: "https://images.pexels.com/photos/4453794/pexels-photo-4453794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        name: "name",
+        price: "3435",
+        id: 3,
+      },
+      {
+        src: "https://images.pexels.com/photos/4453794/pexels-photo-4453794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        name: "name",
+        price: "3245",
+        id: 4,
+      },
+    ],
+  },
+
   {
     type: "img",
     src: "https://images.pexels.com/photos/4450388/pexels-photo-4450388.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
