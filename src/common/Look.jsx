@@ -111,7 +111,7 @@ const Look = ({ data, isActive, next }) => {
 
       {type === "video" && (
         <button
-          className="absolute right-[10px] bottom-[10px]"
+          className="absolute right-[10px] bottom-[130px]"
           onClick={() => setIsMuted((prev) => !prev)}
           aria-label={isMuted ? "Unmute" : "Mute"}
         >
