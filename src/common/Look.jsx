@@ -101,6 +101,7 @@ const Look = ({ data, isActive, next }) => {
 
       {type === "video" && (
         <video
+          className="w-full h-full"
           src={src}
           muted={isMuted}
           autoPlay
