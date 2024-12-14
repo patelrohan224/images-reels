@@ -5,9 +5,13 @@ const Home = () => {
   return (
     <div className="pb-[80px]">
       <div className="grid grid-cols-3">
-        {images?.map((val) => (
+        {images?.map(({ src, type }) => (
           <div>
-            <img src={val} alt={val} />
+            {type === "img" ? (
+              <img src={src} alt={src} />
+            ) : (
+              <video src={src} muted={true} autoPlay controls={false} />
+            )}
           </div>
         ))}
       </div>

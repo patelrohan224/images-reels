@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+/* Add to your global CSS or in a <style> tag */
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
