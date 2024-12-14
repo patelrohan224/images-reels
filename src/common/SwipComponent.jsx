@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useSwipeable } from "react-swipeable";
 import Look from "./Look";
 
@@ -18,10 +18,6 @@ const Lookbook = ({ data, lookId }) => {
     },
     trackMouse: true,
   });
-
-  useEffect(() => {
-    setCurrentIndex(lookId);
-  }, [lookId]);
 
   return (
     <div {...handlers} className="w-full h-full overflow-hidden">

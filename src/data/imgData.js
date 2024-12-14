@@ -123,8 +123,8 @@ export const images = [
     type: "img",
     src: "https://images.pexels.com/photos/4456778/pexels-photo-4456778.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     annotations: [
-      { x: 20, y: 30, product: "Black Jacket", id: 1 },
-      { x: 30, y: 40, product: "Black Jacket", id: 2 },
+      { x: 43, y: 47, product: "Black Jacket", id: 1 },
+      { x: 60, y: 70, product: "Black Jacket", id: 2 },
     ],
     productItems: [
       {
@@ -132,6 +132,18 @@ export const images = [
         name: "name",
         price: "345",
         id: 1,
+      },
+      {
+        src: "https://images.pexels.com/photos/4456778/pexels-photo-4456778.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        name: "name",
+        price: "345",
+        id: 3,
+      },
+      {
+        src: "https://images.pexels.com/photos/4456778/pexels-photo-4456778.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        name: "name",
+        price: "345",
+        id: 4,
       },
       {
         src: "https://images.pexels.com/photos/4456778/pexels-photo-4456778.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",

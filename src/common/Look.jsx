@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Annotations from "./Annotations.jsx";
 import ProductCards from "./ProductCards.jsx";
 
@@ -6,6 +6,8 @@ const Look = ({ data, isActive, next }) => {
   const { type, src, annotations, productItems } = data;
   const [progress, setProgress] = useState(0);
   const [isMuted, setIsMuted] = useState(true);
+  const [activeAnnotation, setActiveAnnotation] = useState(null);
+  const productCardsRef = useRef(null);
 
   useEffect(() => {
     let timer;
@@ -37,7 +39,14 @@ const Look = ({ data, isActive, next }) => {
     setProgress(100);
     next();
   };
-
+  const handleAnnotationClick = (annotationId) => {
+    setActiveAnnotation(annotationId);
+    const index = productItems.findIndex(({ id }) => id === annotationId);
+    if (index !== -1 && productCardsRef.current) {
+      const productCard = productCardsRef.current.children[index];
+      productCard.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+  };
   const muteIcon = (
     <svg
       className="h-[24px] w-[24px]"
@@ -109,8 +118,21 @@ const Look = ({ data, isActive, next }) => {
           {isMuted ? unmuteIcon : muteIcon}
         </button>
       )}
-      {productItems && <ProductCards productItems={productItems} />}
-      {annotations && <Annotations data={annotations} />}
+      {productItems && (
+        <ProductCards
+          ref={productCardsRef}
+          onAnnotationClick={handleAnnotationClick}
+          productItems={productItems}
+          activeAnnotation={activeAnnotation}
+        />
+      )}
+      {annotations && (
+        <Annotations
+          data={annotations}
+          onClick={handleAnnotationClick}
+          activeAnnotation={activeAnnotation}
+        />
+      )}
     </div>
   );
 };
